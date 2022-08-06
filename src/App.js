@@ -6,6 +6,7 @@ import React, {useState} from 'react';
 function App() {
   const [name, setName] = useState('');//usestate for storiing values from input
 // variable, function name to update the value when changes
+  const [Ename, setNamee] = useState('');
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -30,6 +31,11 @@ function App() {
       value={name}
       onChange = {(e) => setName(e.target.value)}></input>
       <button>Submit</button>
+      <h1>{Ename}</h1>
+      <input type="text" placeholder="Enter your Email" 
+      value={Ename}
+      onChange = {(e) => setNamee(e.target.value)}></input>
+      <button>Submit</button>
       </form>
     </div>
   );
@@ -38,3 +44,4 @@ function App() {
 export default App;
 
 // render: showcasing the output
+
