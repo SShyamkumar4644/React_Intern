@@ -1,3 +1,5 @@
+This react app files is about React_Intern of Thaniya Tech of Week 1 classes
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
