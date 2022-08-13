@@ -38,10 +38,30 @@
 }
 
 .my-name{
-  color: blue;
+  color: white;
   
 }
 
 #a{
   color: greenyellow;
+}
+
+#text1{
+  border-style: ridge;
+  border-radius: 2px;
+  border-color: #61dafb;
+}
+
+#text2{
+  border-style: ridge;
+  border-radius: 2px;
+  border-color: #564df9;
+}
+
+.but:hover{
+  transform: scale(1.3);
+  transition: all 1s ease-in-out .3s;
+  background-color: green;
+  border-radius: 2px;
+  
 }

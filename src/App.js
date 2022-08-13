@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 
 
 function App() {
-  const [name, setName] = useState('');//usestate for storiing values from input
+  const [name, setName] = useState(''); //usestate for storing values from input
 // variable, function name to update the value when changes
   const [Ename, setNamee] = useState('');
   return (
@@ -25,17 +25,20 @@ function App() {
           Learn React
         </a>
       </header> */}
+      
       <form>
       <h1>{name}</h1>
-      <input type="text" placeholder="Enter your name" 
+      <input id ="text1" type="text" placeholder="Enter your name" 
       value={name}
       onChange = {(e) => setName(e.target.value)}></input>
       <button>Submit</button>
+
       <h1>{Ename}</h1>
-      <input type="text" placeholder="Enter your Email" 
+      <input id = "text2" type="text" placeholder="Enter your Email" 
       value={Ename}
       onChange = {(e) => setNamee(e.target.value)}></input>
-      <button>Submit</button>
+      <button className='but'>Submit</button>
+
       </form>
     </div>
   );
